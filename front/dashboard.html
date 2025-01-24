@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <nav
+        class="navbar bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      ></nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://images.vexels.com/media/users/3/135776/isolated/preview/d28d55d104a83bec187279a0167a6600-dibujos-animados-de-flor-de-margarita.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Clínica Denisse
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row justify-content-between">
+        <!-- Primera tarjeta -->
+        <div class="col-md-5">
+          <div class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Pacientes</h5>
+                  <ul>
+                    <li>Registro de paciente</li>
+                    <li>Consulta de paciente</li>
+                    <li>Eliminación de paciente</li>
+                    <li>Edición de paciente</li>
+                  </ul>
+                  <a href="tablaPaciente.html" class="btn btn-link"
+                    >Acceder a los pacientes</a
+                  >
+                </div>
+              </div>
+              <div
+                class="col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5278/5278578.png"
+                  class="img-fluid"
+                  alt="Patient Safety"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda tarjeta -->
+        <div class="col-md-5">
+          <div class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Recetas</h5>
+                  <ul>
+                    <li>Registro de Recetas</li>
+                    <li>Consulta de Recetas</li>
+                    <li>Eliminación de Recetas</li>
+                    <li>Edición de Recetas</li>
+                  </ul>
+                  <a href="tablaRecetas.html" class="btn btn-link"
+                    >Acceder a las recetas</a
+                  >
+                </div>
+              </div>
+              <div
+                class="col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0I861hSGc3-1PwF33YvYW0YG-qoYMlAb6Ug&s"
+                  class="img-fluid"
+                  alt="Patient Safety"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

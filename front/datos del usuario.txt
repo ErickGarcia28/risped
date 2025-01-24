@@ -1,0 +1,16 @@
+DATOS DEL PACIENTE
+String nombre del paciente
+String apellido
+int edad
+String peso
+String altura
+String alergias
+
+DATOS DE RECETA
+String Datos del paciente
+String medicamentos
+String sugerencias
+String fecha
+String nombre del doctor
+
+

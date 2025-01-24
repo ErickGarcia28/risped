@@ -1,0 +1,77 @@
+.custom-navbar {
+    background-color: #b4e197;
+}
+
+.custom-button {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #6bb44a;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #2f760f;
+}
+
+.custom-color {
+    color: #6bb44a;
+}
+
+.icon-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #6bb44a;
+}
+
+
+th.custom-color {
+    color: #6bb44a;
+    background-color: #f5f8a9;
+    text-align: center;
+}
+
+
+td {
+    text-align: center;
+    background-color: white;
+}
+
+.custom-button-cancelar {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.custom-button-cancelar:hover {
+    background-color: gray;
+}
+
+
+.card .btn-link {
+    color: #6bb44a;
+   
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+   
+    transition: all 0.3s ease;
+   
+
+}
+
+
+.card .btn-link:hover {
+    color: #2f760f;
+   
+    text-decoration: underline;
+   
+    transform: scale(1.05);
+   
+}
